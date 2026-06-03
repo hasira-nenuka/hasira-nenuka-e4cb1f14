@@ -85,7 +85,7 @@ export const PROJECTS: {
 export const PROJECT_FILTERS: (ProjectCategory | "All")[] = ["All", "Frontend", "Backend", "Full Stack", "Academic"];
 
 export const EDUCATION = {
-  degree: "BSc (Hons) in Software Engineering",
+  degree: "BSc (Hons) in Information Technology",
   university: "University Name",
   gpa: "3.8 / 4.0",
   graduation: "Expected 2026",

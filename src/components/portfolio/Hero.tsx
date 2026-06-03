@@ -26,7 +26,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-5 text-lg md:text-xl text-foreground/90 font-medium">
-            Software Engineering Undergraduate & Full-Stack Developer
+            Information Technology Undergraduate & Full-Stack Developer
           </p>
 
           <p className="mt-4 text-muted-foreground max-w-xl leading-relaxed">

@@ -123,7 +123,7 @@ export const STATS = [
 ];
 
 export const SOCIALS = {
-  github: "https://github.com/hasira-nenuka",
+  github: "https://github.com/",
   linkedin: "https://linkedin.com/",
   email: "mailto:hasira@example.com",
 };

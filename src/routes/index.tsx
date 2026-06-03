@@ -1,29 +1,47 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { Navbar } from "@/components/portfolio/Navbar";
+import { Hero } from "@/components/portfolio/Hero";
+import { About } from "@/components/portfolio/About";
+import { Skills } from "@/components/portfolio/Skills";
+import { Education } from "@/components/portfolio/Education";
+import { Projects } from "@/components/portfolio/Projects";
+import { GitHubShowcase } from "@/components/portfolio/GitHubShowcase";
+import { Certifications } from "@/components/portfolio/Certifications";
+import { CyberSecurity } from "@/components/portfolio/CyberSecurity";
+import { Contact } from "@/components/portfolio/Contact";
+import { Footer } from "@/components/portfolio/Footer";
+import { Loader } from "@/components/portfolio/Loader";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Your App" },
-      { name: "description", content: "Replace this with a one-sentence description of your app." },
-      { property: "og:title", content: "Your App" },
-      { property: "og:description", content: "Replace this with a one-sentence description of your app." },
+      { title: "Hasira Nenuka — Software Engineering Undergraduate & Full-Stack Developer" },
+      { name: "description", content: "Portfolio of Hasira Nenuka, a Software Engineering undergraduate and full-stack developer building scalable, secure and modern web applications." },
+      { property: "og:title", content: "Hasira Nenuka — Software Engineer" },
+      { property: "og:description", content: "Full-stack developer building modern, scalable software." },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/" },
     ],
+    links: [{ rel: "canonical", href: "/" }],
   }),
   component: Index,
 });
 
-// IMPORTANT: Replace this placeholder. See ./README.md for routing conventions.
 function Index() {
   return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
+    <main className="relative min-h-dvh">
+      <Loader />
+      <Navbar />
+      <Hero />
+      <About />
+      <Skills />
+      <Education />
+      <Projects />
+      <GitHubShowcase />
+      <Certifications />
+      <CyberSecurity />
+      <Contact />
+      <Footer />
+    </main>
   );
 }

@@ -13,7 +13,7 @@ export function Footer() {
             <span className="gradient-text">Hasira Nenuka</span>
           </div>
           <p className="mt-3 text-sm text-muted-foreground max-w-xs">
-            Aspiring software engineer building thoughtful, scalable applications.
+            Aspiring information technology professional building thoughtful, scalable applications.
           </p>
         </div>
 

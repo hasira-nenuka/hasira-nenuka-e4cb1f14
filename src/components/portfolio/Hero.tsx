@@ -87,7 +87,7 @@ export function Hero() {
               <span className="text-[var(--brand)] font-semibold">{"<"}/{">"}</span> Full-Stack Dev
             </div>
             <div className="absolute -top-4 -right-4 glass rounded-xl px-3 py-2 text-xs">
-              🎓 Software Engineering
+              🎓 Information Technology
             </div>
           </div>
         </motion.div>

@@ -89,7 +89,7 @@ export function GitHubShowcase() {
             ))}
           </div>
           <a
-            href="https://github.com/"
+            href="https://github.com/hasira-nenuka"
             target="_blank"
             rel="noreferrer"
             className="mt-6 inline-flex items-center gap-2 text-sm font-medium hover:text-[var(--brand)] transition"

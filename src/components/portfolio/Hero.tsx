@@ -26,7 +26,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-5 text-lg md:text-xl text-foreground/90 font-medium">
-            Information Technology Undergraduate & Full-Stack Developer
+            Software Engineering Undergraduate & Full-Stack Developer
           </p>
 
           <p className="mt-4 text-muted-foreground max-w-xl leading-relaxed">
@@ -87,7 +87,7 @@ export function Hero() {
               <span className="text-[var(--brand)] font-semibold">{"<"}/{">"}</span> Full-Stack Dev
             </div>
             <div className="absolute -top-4 -right-4 glass rounded-xl px-3 py-2 text-xs">
-              🎓 Information Technology
+              🎓 Software Engineering
             </div>
           </div>
         </motion.div>

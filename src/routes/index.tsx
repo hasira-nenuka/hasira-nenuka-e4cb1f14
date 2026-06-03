@@ -15,9 +15,9 @@ import { Loader } from "@/components/portfolio/Loader";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Hasira Nenuka — Information Technology Undergraduate & Full-Stack Developer" },
-      { name: "description", content: "Portfolio of Hasira Nenuka, an Information Technology undergraduate and full-stack developer building scalable, secure and modern web applications." },
-      { property: "og:title", content: "Hasira Nenuka — Information Technology Student" },
+      { title: "Hasira Nenuka — Software Engineering Undergraduate & Full-Stack Developer" },
+      { name: "description", content: "Portfolio of Hasira Nenuka, a Software Engineering undergraduate and full-stack developer building scalable, secure and modern web applications." },
+      { property: "og:title", content: "Hasira Nenuka — Software Engineer" },
       { property: "og:description", content: "Full-stack developer building modern, scalable software." },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/" },

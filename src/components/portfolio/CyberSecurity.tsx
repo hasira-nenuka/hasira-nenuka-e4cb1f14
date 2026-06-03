@@ -11,7 +11,7 @@ export function CyberSecurity() {
       id="security"
       eyebrow="Exploring Cyber Security"
       title={<>Building software that's <span className="gradient-text">secure by design</span></>}
-      subtitle="A growing area of interest alongside my core information technology studies."
+      subtitle="A growing area of interest alongside my core software engineering studies."
     >
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {SECURITY_INTERESTS.map((s, i) => {

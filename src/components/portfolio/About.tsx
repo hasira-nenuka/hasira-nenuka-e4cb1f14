@@ -4,7 +4,7 @@ import { GraduationCap, Code2, Layers, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
 
 const POINTS = [
-  { icon: GraduationCap, text: "Information Technology undergraduate." },
+  { icon: GraduationCap, text: "Software Engineering undergraduate." },
   { icon: Code2, text: "Interested in Full-Stack Development." },
   { icon: Layers, text: "Passionate about learning modern technologies." },
   { icon: ShieldCheck, text: "Strong problem-solving mindset." },
@@ -16,7 +16,7 @@ export function About() {
       id="about"
       eyebrow="About Me"
       title={<>Engineering ideas into <span className="gradient-text">real products</span></>}
-      subtitle="I'm an Information Technology undergraduate focused on building reliable, scalable and elegant software. My interests span Software Architecture, Databases, Cloud Computing and Cyber Security."
+      subtitle="I'm a Software Engineering undergraduate focused on building reliable, scalable and elegant software. My interests span Software Architecture, Databases, Cloud Computing and Cyber Security."
     >
       <div className="grid lg:grid-cols-2 gap-10 items-start">
         <ul className="space-y-4">

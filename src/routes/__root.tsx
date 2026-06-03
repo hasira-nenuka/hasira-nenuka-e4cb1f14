@@ -77,8 +77,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Hasira Nenuka — Information Technology Student" },
-      { name: "description", content: "Portfolio of Hasira Nenuka, Information Technology undergraduate and full-stack developer." },
+      { title: "Hasira Nenuka — Software Engineer" },
+      { name: "description", content: "Portfolio of Hasira Nenuka, Software Engineering undergraduate and full-stack developer." },
       { name: "author", content: "Hasira Nenuka" },
       { property: "og:type", content: "website" },
       { property: "og:site_name", content: "Hasira Nenuka" },

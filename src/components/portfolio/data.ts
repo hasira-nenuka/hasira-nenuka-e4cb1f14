@@ -85,13 +85,13 @@ export const PROJECTS: {
 export const PROJECT_FILTERS: (ProjectCategory | "All")[] = ["All", "Frontend", "Backend", "Full Stack", "Academic"];
 
 export const EDUCATION = {
-  degree: "BSc (Hons) in Information Technology",
+  degree: "BSc (Hons) in Software Engineering",
   university: "University Name",
   gpa: "3.8 / 4.0",
   graduation: "Expected 2026",
   modules: [
     "Database Systems",
-    "Information Technology",
+    "Software Engineering",
     "Web Application Development",
     "Data Structures & Algorithms",
     "Computer Networks",
@@ -100,7 +100,7 @@ export const EDUCATION = {
 };
 
 export const CERTIFICATIONS = [
-  { title: "University Coursework Projects", org: "Information Technology Department", year: "2023 – Present" },
+  { title: "University Coursework Projects", org: "Software Engineering Department", year: "2023 – Present" },
   { title: "Programming Certifications", org: "Oracle / Microsoft Learn", year: "2024" },
   { title: "Online Learning Certificates", org: "Coursera • Udemy", year: "2023 – 2024" },
   { title: "Hackathons", org: "University & Inter-University Events", year: "2024" },

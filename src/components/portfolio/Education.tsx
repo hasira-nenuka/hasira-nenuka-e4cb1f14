@@ -8,7 +8,7 @@ export function Education() {
       id="education"
       eyebrow="Education"
       title={<>Academic <span className="gradient-text">journey</span></>}
-      subtitle="My formal training in computing and software engineering."
+      subtitle="My formal training in computing and information technology."
     >
       <div className="relative">
         <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-px bg-gradient-to-b from-[var(--brand)] via-[var(--brand-2)] to-transparent" />

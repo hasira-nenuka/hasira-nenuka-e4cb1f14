@@ -17,13 +17,6 @@ export const SKILLS = [
   { group: "Other Knowledge", items: ["REST APIs", "OOP", "Data Structures", "Algorithms", "Database Design", "Agile Development"] },
 ];
 
-import internshipImg from "@/assets/projects/internship.png.asset.json";
-import languageImg from "@/assets/projects/language.png.asset.json";
-import facilitiesImg from "@/assets/projects/facilities.png.asset.json";
-import helpdeskImg from "@/assets/projects/helpdesk.png.asset.json";
-import mernImg from "@/assets/projects/mern.png.asset.json";
-import testautoImg from "@/assets/projects/testauto.jpg.asset.json";
-
 export type ProjectCategory = "Frontend" | "Backend" | "Full Stack" | "Academic";
 
 export const PROJECTS: {
@@ -41,10 +34,10 @@ export const PROJECTS: {
     description: "A complete platform to manage internships, career opportunities, applications, approvals, communication and analytics.",
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     category: ["Full Stack", "Academic"],
-    github: "#",
+    github: "https://github.com/hasira-nenuka/university_internship_career_management_system",
     demo: "#",
     gradient: "from-blue-500/30 to-purple-500/30",
-    image: internshipImg.url,
+    image: "/University%20internship%20and%20career%20management%20system.png",
   },
   {
     title: "Automated Language Conversion Tests",
@@ -53,7 +46,7 @@ export const PROJECTS: {
     category: ["Academic"],
     github: "#",
     gradient: "from-emerald-500/30 to-cyan-500/30",
-    image: languageImg.url,
+    image: "/Automated%20language%20conversion%20test.png",
   },
   {
     title: "Facilities Halls Booking System",
@@ -63,27 +56,27 @@ export const PROJECTS: {
     github: "#",
     demo: "#",
     gradient: "from-indigo-500/30 to-blue-500/30",
-    image: facilitiesImg.url,
+    image: "/Facilities%20halls%20booking%20system.png",
   },
   {
     title: "Helpdesk Management System",
     description: "A complete ticket support system with user and admin dashboards, ticket assignment, PDF exports and REST API endpoints.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
     category: ["Full Stack"],
-    github: "#",
+    github: "https://github.com/hasira-nenuka/HelpdeskManagementSystem",
     demo: "#",
     gradient: "from-violet-500/30 to-indigo-500/30",
-    image: helpdeskImg.url,
+    image: "/Helpdesk%20management%20system.png",
   },
   {
     title: "MERN Application",
     description: "A full-stack MERN application that manages orders, inventory, finance, support/helpdesk and navigation integrations.",
     tech: ["MongoDB", "Express", "React", "Node.js"],
     category: ["Full Stack"],
-    github: "#",
+    github: "https://github.com/hasira-nenuka/Ama-MERN",
     demo: "#",
     gradient: "from-fuchsia-500/30 to-pink-500/30",
-    image: mernImg.url,
+    image: "/MERN%20application.png",
   },
   {
     title: "Test Automation Assignment",
@@ -92,7 +85,7 @@ export const PROJECTS: {
     category: ["Academic"],
     github: "#",
     gradient: "from-cyan-500/30 to-blue-500/30",
-    image: testautoImg.url,
+    image: "/Test%20Automation%20Assignment.jpg",
   },
 ];
 

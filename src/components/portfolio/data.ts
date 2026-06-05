@@ -17,6 +17,13 @@ export const SKILLS = [
   { group: "Other Knowledge", items: ["REST APIs", "OOP", "Data Structures", "Algorithms", "Database Design", "Agile Development"] },
 ];
 
+import internshipImg from "@/assets/projects/internship.png.asset.json";
+import languageImg from "@/assets/projects/language.png.asset.json";
+import facilitiesImg from "@/assets/projects/facilities.png.asset.json";
+import helpdeskImg from "@/assets/projects/helpdesk.png.asset.json";
+import mernImg from "@/assets/projects/mern.png.asset.json";
+import testautoImg from "@/assets/projects/testauto.jpg.asset.json";
+
 export type ProjectCategory = "Frontend" | "Backend" | "Full Stack" | "Academic";
 
 export const PROJECTS: {
@@ -27,58 +34,65 @@ export const PROJECTS: {
   github?: string;
   demo?: string;
   gradient: string;
+  image?: string;
 }[] = [
   {
-    title: "Smart Campus Management System",
-    description: "An integrated campus platform for students, lecturers and admins to manage courses, schedules and resources in real time.",
-    tech: ["React", "Spring Boot", "MySQL"],
+    title: "University Internship & Career Management System",
+    description: "A complete platform to manage internships, career opportunities, applications, approvals, communication and analytics.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
     category: ["Full Stack", "Academic"],
     github: "#",
     demo: "#",
     gradient: "from-blue-500/30 to-purple-500/30",
+    image: internshipImg.url,
   },
   {
-    title: "Student Attendance Management System",
-    description: "Desktop application for tracking student attendance with reports, analytics and role based access.",
-    tech: ["Java", "MySQL"],
-    category: ["Backend", "Academic"],
+    title: "Automated Language Conversion Tests",
+    description: "Playwright UI automation suite for Singlish and Thanglish to Sinhala and Tamil language conversion testing.",
+    tech: ["Playwright", "TypeScript", "Node.js", "GitHub Actions"],
+    category: ["Academic"],
     github: "#",
-    gradient: "from-indigo-500/30 to-blue-500/30",
+    gradient: "from-emerald-500/30 to-cyan-500/30",
+    image: languageImg.url,
   },
   {
-    title: "E-Commerce Platform",
-    description: "A full featured online store with product catalogue, cart, checkout and admin dashboard built on the MERN stack.",
+    title: "Facilities Halls Booking System",
+    description: "A campus facilities platform for hall bookings, maintenance requests, ticket tracking, approvals and role-based access.",
+    tech: ["React", "Node.js", "MongoDB"],
+    category: ["Full Stack", "Academic"],
+    github: "#",
+    demo: "#",
+    gradient: "from-indigo-500/30 to-blue-500/30",
+    image: facilitiesImg.url,
+  },
+  {
+    title: "Helpdesk Management System",
+    description: "A complete ticket support system with user and admin dashboards, ticket assignment, PDF exports and REST API endpoints.",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    category: ["Full Stack"],
+    github: "#",
+    demo: "#",
+    gradient: "from-violet-500/30 to-indigo-500/30",
+    image: helpdeskImg.url,
+  },
+  {
+    title: "MERN Application",
+    description: "A full-stack MERN application that manages orders, inventory, finance, support/helpdesk and navigation integrations.",
     tech: ["MongoDB", "Express", "React", "Node.js"],
     category: ["Full Stack"],
     github: "#",
     demo: "#",
     gradient: "from-fuchsia-500/30 to-pink-500/30",
+    image: mernImg.url,
   },
   {
-    title: "Hospital Management System",
-    description: "Enterprise style hospital information system handling patients, appointments, billing and staff records.",
-    tech: ["Java", "Oracle Database"],
-    category: ["Backend", "Academic"],
+    title: "Test Automation Assignment",
+    description: "Exploration of automation testing types — unit, integration, performance, regression, smoke and API testing.",
+    tech: ["Selenium", "Java", "TestNG"],
+    category: ["Academic"],
     github: "#",
     gradient: "from-cyan-500/30 to-blue-500/30",
-  },
-  {
-    title: "Portfolio Website",
-    description: "Modern animated developer portfolio built with React and Tailwind CSS, featuring glassmorphism and smooth motion.",
-    tech: ["React", "Tailwind CSS"],
-    category: ["Frontend"],
-    github: "#",
-    demo: "#",
-    gradient: "from-violet-500/30 to-indigo-500/30",
-  },
-  {
-    title: "Task Management Application",
-    description: "Real time task tracker with authentication, boards and drag and drop powered by Node.js and MongoDB.",
-    tech: ["Node.js", "MongoDB", "Express"],
-    category: ["Full Stack"],
-    github: "#",
-    demo: "#",
-    gradient: "from-emerald-500/30 to-cyan-500/30",
+    image: testautoImg.url,
   },
 ];
 

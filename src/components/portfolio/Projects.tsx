@@ -46,11 +46,20 @@ export function Projects() {
               transition={{ duration: 0.35, delay: i * 0.04 }}
               className="group glass rounded-2xl overflow-hidden card-hover hover:-translate-y-1 hover:border-[var(--brand)]/40 flex flex-col"
             >
-              <div className={`relative h-40 bg-gradient-to-br ${p.gradient}`}>
-                <div className="absolute inset-0 grid place-items-center">
-                  <Folder className="size-12 text-foreground/40 group-hover:scale-110 transition-transform" />
-                </div>
-                <div className="absolute top-3 left-3 flex flex-wrap gap-1">
+              <div className={`relative h-44 bg-gradient-to-br ${p.gradient} overflow-hidden`}>
+                {p.image ? (
+                  <img
+                    src={p.image}
+                    alt={p.title}
+                    loading="lazy"
+                    className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="absolute inset-0 grid place-items-center">
+                    <Folder className="size-12 text-foreground/40 group-hover:scale-110 transition-transform" />
+                  </div>
+                )}
+                <div className="absolute top-3 left-3 flex flex-wrap gap-1 z-10">
                   {p.category.map((c) => (
                     <span key={c} className="text-[10px] px-2 py-0.5 rounded-full glass">
                       {c}

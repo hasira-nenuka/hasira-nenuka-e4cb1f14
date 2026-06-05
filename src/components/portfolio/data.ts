@@ -85,10 +85,10 @@ export const PROJECTS: {
 export const PROJECT_FILTERS: (ProjectCategory | "All")[] = ["All", "Frontend", "Backend", "Full Stack", "Academic"];
 
 export const EDUCATION = {
-  degree: "BSc (Hons) in Information Technology",
-  university: "University Name",
-  gpa: "3.8 / 4.0",
-  graduation: "Expected 2026",
+  degree: "Bachelor of Science Honours in Information Technology",
+  university: "Sri Lanka Institute of Information Technology (SLIIT)",
+  gpa: "2.12",
+  graduation: "Expected 2027",
   modules: [
     "Database Systems",
     "Software Engineering",

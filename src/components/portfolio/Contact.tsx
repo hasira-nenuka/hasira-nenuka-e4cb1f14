@@ -46,7 +46,7 @@ export function Contact() {
         </form>
 
         <div className="space-y-4">
-          <ContactItem icon={Mail} title="Email" value="hasira@example.com" href="mailto:hasira@example.com" />
+          <ContactItem icon={Mail} title="Email" value="hasiranenuka20896@gmail.com" href={SOCIALS.email} />
           <ContactItem icon={Github} title="GitHub" value="github.com/hasira" href={SOCIALS.github} />
           <ContactItem icon={Linkedin} title="LinkedIn" value="linkedin.com/in/hasira" href={SOCIALS.linkedin} />
           <ContactItem icon={MapPin} title="Location" value="Available globally • Remote friendly" />

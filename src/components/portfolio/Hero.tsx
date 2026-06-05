@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Download, Mail, Github, Linkedin, ArrowRight, Sparkles } from "lucide-react";
-import profileImg from "@/assets/profile.jpg";
+import profileImg from "@/assets/profile.jpg.asset.json";
 import { SOCIALS } from "./data";
 
 export function Hero() {
@@ -75,7 +75,7 @@ export function Hero() {
             <div className="p-[2px] rounded-3xl bg-[image:var(--gradient-brand)] glow">
               <div className="rounded-3xl bg-card overflow-hidden">
                 <img
-                  src={profileImg}
+                  src={profileImg.url}
                   alt="Hasira Nenuka portrait"
                   width={420}
                   height={420}

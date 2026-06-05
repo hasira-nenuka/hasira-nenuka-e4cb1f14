@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Section } from "./Section";
-import { Mail, Github, Linkedin, Send, MapPin } from "lucide-react";
+import { Mail, Github, Linkedin, Send, MapPin, Phone } from "lucide-react";
 import { SOCIALS } from "./data";
 
 export function Contact() {
@@ -47,9 +47,10 @@ export function Contact() {
 
         <div className="space-y-4">
           <ContactItem icon={Mail} title="Email" value="hasiranenuka20896@gmail.com" href={SOCIALS.email} />
+          <ContactItem icon={Phone} title="Mobile" value="0729902000" href="tel:+94729902000" />
           <ContactItem icon={Github} title="GitHub" value="github.com/hasira" href={SOCIALS.github} />
           <ContactItem icon={Linkedin} title="LinkedIn" value="linkedin.com/in/hasira" href={SOCIALS.linkedin} />
-          <ContactItem icon={MapPin} title="Location" value="Available globally • Remote friendly" />
+          <ContactItem icon={MapPin} title="Location" value="74/8, Katuwawala Road, Maharagama" />
         </div>
       </div>
     </Section>
